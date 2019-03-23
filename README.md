@@ -2,12 +2,10 @@
 A simple dice roll simulator
 *********************************
 
-import random
-roll = True
+Takes numbers between 1 to 6, and outputs a random number from that range. Also, asks if we would like to roll again.
 
-while roll:
-    print("Roll result is ", random.randint(1, 6))
-    print("Do you wanna have another go?")
-    roll = ("yes" or "y") in input().lower()
-
-print("Good game, see ya!")
+Concepts used:
+- Random function
+- Integers
+- Print statement
+- While loops
